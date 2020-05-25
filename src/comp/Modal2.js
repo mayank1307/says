@@ -11,7 +11,7 @@ function Modal2(props){
                 </button>
                 </div>
                 <div className="modal-body col-3 col-sm-12">
-                <video width="100%" height="100%" controls>
+                <video width="285" height="285" controls>
                     <source src={props.link} type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
