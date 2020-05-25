@@ -10,8 +10,8 @@ function Modal2(props){
                     <span aria-hidden="true">×</span>
                 </button>
                 </div>
-                <div className="modal-body">
-                <video width="320" height="240" controls>
+                <div className="modal-body col-3 col-sm-12">
+                <video width="275" height="275" controls>
                     <source src={props.link} type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>

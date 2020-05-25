@@ -21,32 +21,32 @@ function Example(){
   const [iconTabs, setIconTabs] = React.useState("1");
   return (
       <Card className="bg-light">
-        <CardHeader className="bg-light" >
+        <CardHeader className="bg-light">
           <Nav className="justify-content-center nav-pills row">
-            <NavItem className="col-3 col-md-2" >
+            <div className="col-4 col-md-2 px-2 d-block"><NavItem className="" >
               <NavLink className={iconTabs === "1" ? "active bg-dark" : ""} href="#pablo" onClick={e => {e.preventDefault(); setIconTabs("1");}}>
               <div className="row justify-content-center">
               Home</div>
               </NavLink>
-            </NavItem>
-            <NavItem className="col-3 col-md-2">
+            </NavItem></div>
+            <div className="col-4 col-md-2 px-2 d-block"><NavItem className="">
                             <NavLink className={iconTabs === "2" ? "active bg-dark" : ""} href="#pablo" onClick={e => {e.preventDefault(); setIconTabs("2");}}>
               <div className="row justify-content-center">
-              My Work</div>
+              Works</div>
               </NavLink>
-            </NavItem>
-            <NavItem className="col-3 col-md-2">
+            </NavItem></div>
+            <div className="d-none d-md-block col-4 col-md-2 px-2"><NavItem className="">
                             <NavLink className={iconTabs === "3" ? "active bg-dark" : ""} href="#pablo" onClick={e => {e.preventDefault(); setIconTabs("3");}}>
               <div className="row justify-content-center">
               About</div>
               </NavLink>
-            </NavItem>
-            <NavItem className="col-3 col-md-2">
+            </NavItem></div>
+            <div className="col-4 col-md-2 px-2 d-block"><NavItem className="">
                             <NavLink className={iconTabs === "4" ? "active bg-dark" : ""} href="#pablo" onClick={e => {e.preventDefault(); setIconTabs("4");}}>
               <div className="row justify-content-center">
               Contact</div>
               </NavLink>
-            </NavItem>
+            </NavItem></div>
           </Nav>
         </CardHeader>
         <CardBody  style={{padding:"0",margin:"0"}}>

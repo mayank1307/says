@@ -14,10 +14,10 @@ function workHome(){
             <div className="py-5">
             <div className="nav-tabs-navigation nav-pills">
             <ul className="nav" data-tabs="tabs">
-                <li className="nav-item"><a className="nav-link" href="#web" data-toggle="tab">Web-Dev</a></li>
-                <li className="nav-item"><a className="nav-link active" href="#photo" data-toggle="tab">Photography</a></li>
-                <li className="nav-item"><a className="nav-link" href="#video" data-toggle="tab">Videography</a></li>
-                <li className="nav-item"><a className="nav-link" href="#design" data-toggle="tab">Design</a></li>            </ul>
+                <li className="nav-item"><a style={{width:"150px"}} className="nav-link" href="#web" data-toggle="tab">Web-Dev</a></li>
+                <li className="nav-item"><a style={{width:"150px"}} className="nav-link active" href="#photo" data-toggle="tab">Photography</a></li>
+                <li className="nav-item"><a style={{width:"150px"}} className="nav-link" href="#video" data-toggle="tab">Videography</a></li>
+                <li className="nav-item"><a style={{width:"150px"}} className="nav-link" href="#design" data-toggle="tab">Design</a></li>            </ul>
             </div>
             </div>
             </div><div className="card-body">
