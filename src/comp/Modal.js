@@ -11,11 +11,11 @@ function Modal(props){
                 </button>
                 </div>
                 <div className="modal-body">
-                <img className="col-12 py-3" data-toggle="modal" data-target="#exampleModal" src={props.loc} alt="."  style={{maxHeight:"350px",objectFit:"scale-down"}} />
+                <img className="col-12 py-3" data-toggle="modal" data-target="#exampleModal" src={props.loc+"-min.jpg"} alt="."  style={{maxHeight:"350px",objectFit:"scale-down"}} />
                 </div>
                 <div className="modal-footer">
                 <button type="button" className="btn btn-danger" data-dismiss="modal">Close</button>
-                <a href={props.loc} download><button type="button" className="btn btn-dark">Download</button></a>
+                <a href={props.loc+".jpg"} download><button type="button" className="btn btn-dark">Download</button></a>
                 </div>
             </div>
             </div>
