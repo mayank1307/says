@@ -3,6 +3,8 @@ import './text.css';
 import Tab1 from './tab1';
 import TabWp from './TabWp';
 import Tabw4 from './TabVw4';
+import Hire from './hire';
+
 function Work(){
     return(   
         <div style={{margin:"0"}}>
@@ -32,6 +34,7 @@ function Work(){
                 </div>
                 </div>
             </div>
+            <Hire/>
     </div>
     );
 }
