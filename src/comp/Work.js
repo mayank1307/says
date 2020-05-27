@@ -8,7 +8,7 @@ import Hire from './hire';
 function Work(){
     return(   
         <div style={{margin:"0"}}>
-            <div className="py-5" style={{padding:"5%"}}>
+            <div style={{padding:"5%"}}>
             <div className="nav-tabs-navigation nav-pills">
                 <ul className="nav row" data-tabs="tabs">
                 <li className="nav-item col-6 col-md-3"><a style={{width:"125px"}} className="nav-link active" href="#photo1" data-toggle="tab">Photography</a></li>
